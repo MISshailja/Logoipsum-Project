@@ -1,0 +1,81 @@
+#section7 {
+  background: #fff;
+}
+
+.section7 h6 {
+  font-size: 46px;
+  color: #233a41;
+  font-weight: 600;
+}
+
+.section7 p {
+  font-size: 15px;
+  color: #233a41;
+  font-weight: 300;
+}
+
+.sectionSeven-Content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 85%;
+}
+.Section7-box-one {
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .Section7-box-one {
+    flex: 1 1 calc(20.33% - 10px);
+  }
+}
+
+.EMPYbox {
+  border: 1px solid rgba(47, 201, 128, 1);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.playButton {
+  position: absolute;
+  cursor: pointer;
+  bottom: 30px;
+}
+
+.centeredMb7 {
+  width: 100%;
+  padding-left: 15px;
+}
+
+.centeredMb7 h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #233a41;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.centeredMb7 p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #233a41;
+  text-align: left;
+}
+
+.centeredMb-star {
+  display: flex;
+}
+.centeredMb-star span{
+ cursor: pointer;
+}
